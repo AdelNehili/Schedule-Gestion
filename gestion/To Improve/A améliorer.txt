@@ -1,0 +1,11 @@
+1) Créer un vérificateur pour check que la matrice de relation soit bien symétrique
+2) Faire en sorte qu'une matrice crée de manière random soit enregistrée dans un tableau excel
+
+3) La boucle sur toutes les couleurs peut-etre améliorée en mettant une boucle while avec les conditions
+    3.a) tant qu'on n'a pas dépassé la color_list
+    3.b) tant qu'il y a encore des None dans color_map (if None in color_map:...)
+
+4) Maintenant que nodes/color_map sont en attributs, faire une fonction getColor(node), qui va return la couleur du node en question
+5) Véritablement créer une liste de couleur au lieux de faire liste = ["r","v","b",....]
+6) Faire en sorte que,pour la fonction try_to_color_nodes, la lecture de nodes se fasse de manière décroissante en fonction de degré de chaque node
+7) Rationnaliser le code de sorte à ce que les (size/color)_map ne soient plus en variable de function puisqu'ils sont passés en attribut de la class

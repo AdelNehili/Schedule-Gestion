@@ -1,0 +1,8 @@
+22/06/22 :
+26/06/22 :  Refactor du code afin de faire apparaitre la vision POO
+28/06/22 :  création de GetColor(node) qui permet de faire le lien entre le node et sa couleur dans la color_map
+29/06/22 :  Recherche d'un moyen de sort la lst(nodes) en fonction de l'ordre décroissant de graph.degree
+30/06/22 :  1) Refactor partiel
+            2) Optimisation sur le test des couleurs (On test la couleur que si tout le monde n'a pas encore de couleur : check_color)
+            3) Optimisation de l'algo en testant sur les node aillant le plus de voisins (sort_according_to_degrees)
+            4) On génère une color_list qui passe en attribut (permettra de convert_color_to_hours)
